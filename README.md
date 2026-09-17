@@ -105,13 +105,9 @@ Main packages:
 
 This portfolio repository was generalized from analytical code developed for:
 
-**Shuvo et al. — Influence of deadwood, tree-related microhabitats, and forest structural features on saproxylic arthropod community composition**
-
-Original study repository:
-
-https://github.com/MohammadJamilShuvo/Shuvo_Arthropod_eDNA_ForestStructure_2025
-
-The scripts here are intentionally study-independent and use synthetic example data.
+**Shuvo, M. J., Tabassum, T., & Segelbacher, G. (2025). Optimizing eDNA metabarcoding techniques for assessing arthropod communities in tree‐related microhabitats. Environmental DNA, 7(1), e70064. https://doi.org/10.1002/edn3.70064**
+&
+**Shuvo, M. J., Wohlwend, M., Heer, K., Paillet, Y., & Segelbacher, G. (2026). Influence of Deadwood, Tree‐Related Microhabitats, and Forest Structural Features on Saproxylic Arthropod Diversity. Ecology and evolution, 16(5), e73600. https://doi.org/10.1002/ece3.73600**
 
 ## Author
 
