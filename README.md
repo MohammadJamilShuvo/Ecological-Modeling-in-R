@@ -16,6 +16,8 @@ This repository is designed to demonstrate practical experience with statistical
 - Ecological richness heatmaps
 - Reproducible modular R workflows
 
+<img width="1672" height="941" alt="9247e345-1cb3-4ccc-b8d0-d8013a7246af" src="https://github.com/user-attachments/assets/68a2aaee-a057-43f5-8fb7-05d88be1d3fb" />
+
 ## Repository structure
 
 ```text
