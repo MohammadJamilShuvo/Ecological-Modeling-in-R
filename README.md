@@ -1,0 +1,123 @@
+# Ecological Modeling in R
+
+A reusable portfolio of **ecological and biodiversity modeling workflows in R**, generalized from analyses developed for a forest arthropod eDNA study.
+
+This repository is designed to demonstrate practical experience with statistical modeling, ecological data analysis, model diagnostics, machine learning, structural equation modeling, and visualization. The examples use **synthetic data**, so the repository is independent of any single manuscript or study system.
+
+## Methods demonstrated
+
+- Pearson correlation analysis and correlation matrices
+- Poisson generalized linear models (GLMs)
+- Negative-binomial GLMs for overdispersed count data
+- Model diagnostics and AIC-based model comparison
+- Generalized additive models (GAMs)
+- Random forest regression and variable importance
+- Structural equation modeling (SEM)
+- Ecological richness heatmaps
+- Reproducible modular R workflows
+
+## Repository structure
+
+```text
+Ecological-Modeling-in-R/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── ORIGIN.md
+├── data/
+│   ├── example_ecology_data.csv
+│   └── example_heatmap_data.csv
+├── R/
+│   ├── 00_setup.R
+│   ├── 01_correlation_analysis.R
+│   ├── 02_count_models_glm_nb.R
+│   ├── 03_generalized_additive_models.R
+│   ├── 04_random_forest.R
+│   ├── 05_structural_equation_modeling.R
+│   ├── 06_richness_heatmap.R
+│   └── 07_run_all.R
+└── outputs/
+```
+
+## Quick start
+
+Open the repository as an RStudio project/folder and run:
+
+```r
+source("R/07_run_all.R")
+```
+
+The script installs missing packages, runs the workflow, and saves example figures in `outputs/`.
+
+## Example data
+
+`data/example_ecology_data.csv` is a synthetic ecological dataset containing environmental predictors and biodiversity count responses. It is included only for demonstration and teaching purposes.
+
+Variables include:
+
+- elevation
+- canopy closure
+- forest structure index
+- deadwood volume
+- tree-related microhabitat abundance
+- conifer percentage
+- mean DBH
+- arthropod-group richness
+- total richness
+
+## Skills represented
+
+### Count-data modeling
+
+The repository compares Poisson and negative-binomial GLMs and demonstrates why distribution choice matters for ecological count responses.
+
+### Nonlinear ecological responses
+
+GAMs are used to model flexible nonlinear relationships between biodiversity responses and environmental gradients.
+
+### Machine learning
+
+Random forest regression is used to model biodiversity responses and evaluate predictor importance.
+
+### Structural equation modeling
+
+A compact SEM illustrates direct and indirect relationships among forest structure, habitat features, and biodiversity responses.
+
+### Reproducible visualization
+
+Correlation plots, model-effect plots, variable-importance plots, SEM diagrams, and heatmaps are produced from modular scripts.
+
+## Packages
+
+Main packages:
+
+- `tidyverse`
+- `corrplot`
+- `MASS`
+- `mgcv`
+- `performance`
+- `randomForest`
+- `lavaan`
+- `semPlot`
+- `RColorBrewer`
+
+## Background
+
+This portfolio repository was generalized from analytical code developed for:
+
+**Shuvo et al. — Influence of deadwood, tree-related microhabitats, and forest structural features on saproxylic arthropod community composition**
+
+Original study repository:
+
+https://github.com/MohammadJamilShuvo/Shuvo_Arthropod_eDNA_ForestStructure_2025
+
+The scripts here are intentionally study-independent and use synthetic example data.
+
+## Author
+
+**Mohammad Jamil Shuvo**  
+Ecological genetics · molecular ecology · biodiversity genomics · ecological modeling · reproducible workflows
+
+## License
+
+Code in this repository is released under the MIT License. The synthetic example datasets are provided for unrestricted educational and demonstration use.
